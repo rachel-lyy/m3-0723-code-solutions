@@ -6,7 +6,10 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - What is JSX?
 
+  - HTML like markup that can be written in a javascript file. It keeps logic and markup together so they can stay in sync with edits.
+
 - How does React use JSX to render components?
+  - Wrap markup in a single parent tag that is rendered in the javascript code.
 
 ## Notes
 
