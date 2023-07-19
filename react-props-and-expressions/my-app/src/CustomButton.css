@@ -1,0 +1,13 @@
+.red-btn {
+  background-color: red;
+}
+
+.green-btn {
+  background-color: green;
+}
+
+.blue-btn {
+  background-color: lightblue;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
