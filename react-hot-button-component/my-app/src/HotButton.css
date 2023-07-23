@@ -1,0 +1,30 @@
+.cold {
+  background-color: rgb(41, 30, 89);
+  color: white;
+}
+
+.cool {
+  background-color: rgb(123, 73, 199);
+  color: white;
+}
+
+.lukewarm {
+  background-color: rgb(215, 131, 131);
+  color: white;
+}
+
+.warm {
+  background-color: rgb(241, 185, 81);
+  color: black;
+}
+
+.warmer {
+  background-color: rgb(247, 247, 106);
+  color: black;
+}
+
+.hot {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+}
