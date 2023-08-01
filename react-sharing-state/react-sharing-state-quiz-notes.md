@@ -6,7 +6,13 @@ After completing this exercise, you should be able to discuss or answer the foll
 
 - What are two ways React components can interact?
 
+  - Passing properties from a parent component to children components
+  - Responding to events from children components
+
 - How can multiple React components share state?
+  - It inherits the state from parents through component props
+  - Parent receives state from its children through Events
+  - React Context
 
 ## Notes
 
