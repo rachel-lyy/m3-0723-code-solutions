@@ -1,0 +1,61 @@
+h1 {
+  position: absolute;
+  top: 0;
+  margin: 0.5rem 8rem;
+}
+
+.nav {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  text-align: left;
+  padding-left: 10px;
+  transform: translateX(0);
+  background-color: white;
+}
+
+.nav-hidden {
+  transform: translateX(-400px);
+}
+
+.nav-links {
+  padding: 0;
+}
+
+.nav-link {
+  padding-bottom: 3px;
+  list-style-type: none;
+  background-color: rgb(255, 255, 255);
+  transition: background-color 0.25s ease-in-out;
+}
+
+.bar-icon {
+  position: absolute;
+  text-align: left;
+  left: 0;
+  padding: 10px;
+  z-index: 5;
+}
+
+.hidden {
+  display: none;
+}
+
+.backdrop {
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease-in-out;
+  position: absoulte;
+}
+
+.backdrop-dark {
+  opacity: 0.5;
+  pointer-events: all;
+}
