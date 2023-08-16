@@ -1,0 +1,9 @@
+body {
+  background-color: aqua;
+}
+
+img {
+  max-width: 300px;
+  height: auto;
+  margin: auto;
+}
